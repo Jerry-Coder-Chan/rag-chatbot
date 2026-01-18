@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# API Keys and Secrets
+.env
+*.env
+secrets.toml
+
+# FAISS index
+faiss_index/
+
+# Mac
+.DS_Store
+
+# Logs
+*.log
