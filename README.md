@@ -31,3 +31,4 @@ print(hashlib.sha256(password.encode()).hexdigest())
 ```
 
 Update the hash in `app.py` (line ~35).
+# rag-chatbot
