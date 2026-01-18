@@ -183,12 +183,12 @@ with st.sidebar:
                 st.success("✓ LLM and embeddings initialized")
                 
                 # Use local Colab storage path
-                rag_docs_path = "/content/RAG_Docs/"
+                rag_docs_path = "/RAG_Docs/"
                 
                 # Check if documents exist
                 if not os.path.exists(rag_docs_path):
                     st.error(f"Document path does not exist: {rag_docs_path}")
-                    st.info("Please copy RAG_Docs to /content/RAG_Docs/ first")
+                    st.info("Please copy RAG_Docs to /RAG_Docs/ first")
                     st.stop()
                 
                 # Load and split documents
