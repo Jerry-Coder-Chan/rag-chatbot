@@ -47,7 +47,6 @@ def check_password():
             on_change=password_entered, 
             key="password"
         )
-        st.info("💡 Default password is: **password** (change this in production!)")
         return False
     elif not st.session_state["password_correct"]:
         st.markdown("# 🔐 RAG Chatbot Access")
