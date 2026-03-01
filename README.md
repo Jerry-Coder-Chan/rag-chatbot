@@ -21,8 +21,6 @@ A secure, production-ready chatbot using Retrieval-Augmented Generation (RAG) to
 
 ## Security
 
-Default password is "password" - **CHANGE THIS** in production!
-
 Generate new hash:
 ```python
 import hashlib
